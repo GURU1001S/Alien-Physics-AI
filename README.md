@@ -8,7 +8,7 @@
 * **Loss Function:** Hybrid SmoothL1Loss + Mean Squared Error (Data Loss + Physics Residual).
 * **Singularity Safety Net:** `torch.clamp(r, min=0.5)` to prevent `NaN` gradient explosions.
 
-### ⚡ Hardware & MLOps Optimization (RTX 3050 6GB)
+### ⚡ Hardware & MLOps Optimization (RTX)
 * **Data Pipeline:** 100% VRAM Dataset Caching (Zero PCIe bottleneck).
 * **Training Time:** Reduced from ~40 minutes to **< 2 minutes**.
 * **Memory Management:** `.contiguous()` applied to defragment C++ cuDNN memory blocks.
