@@ -10,7 +10,7 @@
 
 ### ⚡ Hardware & MLOps Optimization (RTX)
 * **Data Pipeline:** 100% VRAM Dataset Caching (Zero PCIe bottleneck).
-* **Training Time:** Reduced from ~40 minutes to **< 2 minutes**.
+* **Training Time:** Reduced from ~40 minutes to **< 25 minutes**.
 * **Memory Management:** `.contiguous()` applied to defragment C++ cuDNN memory blocks.
 * **L-BFGS Optimization:** Sub-sampled to 4,096 sequences to prevent 22GB+ VRAM OOM crashes.
 
