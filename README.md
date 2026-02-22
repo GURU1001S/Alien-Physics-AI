@@ -27,4 +27,4 @@
 * **Conservation of Angular Momentum ($L = \vec{r} \times \vec{v}$):** The AI organically learned Kepler's Laws. Analytics on RK4-integrated outputs show an Angular Momentum Variance of just **0.000198** across stable orbits.
 * **Thermodynamic Tracking:** Model outputs successfully map the inverse relationship between Kinetic ($KE$) and Potential Energy ($PE$), accurately plotting Escape Velocity triggers when Total Energy ($TE > 0$).
 
-[Analytics dashboard](Model_output_graph.png)
+![Analytics dashboard](Model_output_graph.png)
