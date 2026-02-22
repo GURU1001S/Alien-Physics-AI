@@ -26,3 +26,5 @@
 * **The Slingshot Anomaly:** The AI successfully tracks normal orbits but mathematically fails during extreme solar approaches (Sim 67). Observation proves the `clamp(min=0.5)` safety net forces the AI to "cap" maximum gravity, resulting in smooth curve predictions while the true $1/r^3$ physics engine triggers violent, straight-line ejections.
 * **Conservation of Angular Momentum ($L = \vec{r} \times \vec{v}$):** The AI organically learned Kepler's Laws. Analytics on RK4-integrated outputs show an Angular Momentum Variance of just **0.000198** across stable orbits.
 * **Thermodynamic Tracking:** Model outputs successfully map the inverse relationship between Kinetic ($KE$) and Potential Energy ($PE$), accurately plotting Escape Velocity triggers when Total Energy ($TE > 0$).
+
+[Analytics dashboard](Model_output_graph.png)
